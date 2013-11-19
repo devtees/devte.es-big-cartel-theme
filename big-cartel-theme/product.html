@@ -1,0 +1,113 @@
+<div class="product-view" class="clearfix">
+
+	<h2 class="product-name">{{ product.name }}</h2>
+
+  <div class="product-info">
+
+    <h3 class="product-price">{{ product.default_price | money_with_sign }}{% if product.on_sale %} <span class="on_sale">On Sale!</span>{% endif %}</h3>
+
+    {% case product.status %}
+
+    {% when 'active' %}
+
+    <div class="product-form-wrap">
+      <form id="product_form" class="clearfix" method="post" action="/cart">
+
+        {% if product.has_default_option %}
+
+        {{ product.option | hidden_option_input }}
+
+        {% else %}
+
+        <div id="product_options" class="options">
+          {{ product.options_in_stock | options_select }}
+        </div>
+
+        {% endif %}
+
+        <button id="btn_product_buy" class="button" name="submit" type="submit">Add to cart</button>
+
+        <div id="adding_to_cart" style="display:none">
+          <h4>Adding&hellip;</h4>
+        </div>
+
+        <div id="added_to_cart" style="display:none">
+          <h4>Added!</h4>
+          <a href="/cart" id="added_view_cart" class="button"><span>View Cart</span></a>
+        </div>
+
+      </form>
+    </div>
+
+    {% if theme.show_inventory_bars %}
+    <div class="product-inventory">
+
+      <h3>Availability</h3>
+
+      <ul>
+        {% for option in product.options %}
+        <li{% if option.sold_out %} class="sold-out"{% endif %}>
+          {% unless product.has_default_option %}
+          <span class="inventory_option">{{ option.name }}</span>
+          {% endunless %}
+          <span class="inventory-bar" style="width:{{ option.inventory }}%">
+          	<em>{{ option.inventory }}% in stock</em>
+          </span>
+          {% if option.sold_out %}
+          <span class="inventory-sold">Sold Out</span>
+          {% endif %}
+        </li>{% endfor %}
+
+      </ul>
+
+    </div>
+    {% endif %}
+
+    {% when 'coming-soon' %}
+
+    <h3 class="product-status soon">Coming Soon</h3>
+
+    {% when 'sold-out' %}
+
+    <h3 class="product-status sold">Sold Out</h3>
+
+    {% endcase %}
+
+    <div class="product-share clearfix">
+	    <div class="fb-like" data-href="{{ page.full_url }}" data-send="false" data-layout="button_count" data-width="auto" data-show-faces="false"></div>
+	    <!--iframe src="//www.facebook.com/plugins/like.php?href={{ page.full_url }}&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=215294871828834" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:21px;" allowTransparency="true"></iframe-->
+	    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Awesome T-shirt. I want one:" data-count="horizontal" data-via="jglovier">Tweet</a>
+	    <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120" data-href="{{ product.url }}"></div>
+	  </div><!--/.product-share-->
+
+    {% if product.description != blank %}
+    <div class="product-description">
+      {{ product.description | paragraphs }}
+    </div>
+    {% endif %}
+
+  </div>
+
+  <div class="product-images">
+    <ul class="product-thumbnails">
+
+      <li class="featured">
+      	<a class="fancybox" href="{{ product.image | product_image_url }}">
+      		<img src="{{ product.image | product_image_url size:"fullsize" }}" alt="Image of {{ product.name | escape }}" />
+      		<span class="stilt"></span>
+      	</a>
+      </li>
+
+      {% for image in product.images offset:1 %}
+      <li class="thumbnail">
+      	<a class="fancybox" href="{{ image | product_image_url }}">
+      		<img src="{{ image | product_image_url size:"thumb" }}" alt="Image of {{ product.name | escape }}" />
+      		<span class="stilt"></span>
+      	</a>
+      </li>{% endfor %}
+
+    </ul>
+
+  </div>
+
+</div>

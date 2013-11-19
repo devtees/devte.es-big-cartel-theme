@@ -1,0 +1,40 @@
+{% get products from products.all limit:theme.featured_limit order:theme.featured_order %}
+
+{% if products != blank %}
+
+<section class="home-products clearfix">
+
+  <div class="home-promo">
+    <img src="http://assets.devte.es/img/promo-banner.png" alt="3 great designs all 50% off this week only" class="promo-img">
+  </div>
+
+{% for product in products %}
+
+  <article class="product preview product-{{ forloop.index }}">
+  	<a href="{{ product.url }}" title="View {{ product.name | escape }}" class="product-link">
+  		<img class="product-img" src="{{ product.image | product_image_url size:"large" }}" alt="Image of {{ product.name | escape }}" />
+  	<span class="stilt"></span>
+  	<div class="product-info">
+  		<h3 class="product-title">
+  			<span>{{ product.name }}</span>
+  		</h3>
+  		<!--p class="product-price">
+  			<span>{{ product.default_price | money_with_sign }}</span>
+  		</p-->
+  		{% if product.on_sale %}<p class="product-status">
+  			<span>On Sale</span>
+  		</p>{% endif %}</div>
+  	</a>
+  </article>
+
+{% endfor %}
+</section>
+
+
+{% else %}
+
+<p class="alert-no-products">No products found.</p>
+
+{% endif %}
+
+{% endget %}
