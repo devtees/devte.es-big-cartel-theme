@@ -8,3 +8,7 @@ In the future I'll also be publishing code here, such as the current site codeba
 ## About Devte.es
 
 Currently, [Dev Tees](http://devte.es) is a custom theme of a Big Cartel shop. I plan to extract the theme to an open source variant :soon:
+
+## Suggest a shirt concept
+
+Have a shirt concept you'd like to see Dev Tees print? [Open an issue](https://github.com/devtees/devte.es/issues) with the idea and we can hash out the concept together!
