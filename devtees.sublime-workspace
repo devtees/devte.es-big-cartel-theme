@@ -1,0 +1,504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_he",
+				"get_header"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"awww",
+				"awwwards-banner"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"background-i",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 91303,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"tag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joelglovier/code/devte.es/big-cartel-theme/product-description-template.html",
+		"/Users/joelglovier/code/jag/public_html/devtees/big-cartel-theme/styles.css",
+		"/Users/joelglovier/code/jag/public_html/devtees/templp/index.html",
+		"/Users/joelglovier/code/jag/public_html/devtees/tempshop/index.html",
+		"/Users/joelglovier/code/jag/public_html/devtees/index.html",
+		"/Users/joelglovier/code/jag/public_html/userbase/userbase.io.sublime-project",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-full.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/header.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/author.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/category.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-clients.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-community.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-company.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-live.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-press.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-services.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-team.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-training.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/tags.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/archive.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/archive-a2_team_member.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single-a2_email_archive.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/footer-email-archive.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/header-email-archive.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/footer.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/404.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/header-page-content.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-support.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/search.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/comments.php",
+		"/Users/joelglovier/code/appendto-projects/client-time-redesign/source/scss/main.scss",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/plugins/custom-permalinks/custom-permalinks.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-config.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-settings.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-includes/default-constants.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-front.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-footer-left-content.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-team.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-includes/post.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/debug.log",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/css/layout.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/css/global.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/functions.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/index.php",
+		"/Library/Application Support/appsolute/MAMP PRO/conf/php.ini",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/index-a2_team_member.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/page-a2_team_member.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/.htaccess",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/header-body.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single-a2_team_member.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single-a2_press.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single-a2_teammember.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/single-press.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/index.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-blog.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-page.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-company.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-community.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-training.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-clients.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-services.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/twentytwelve/single.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/js/site.js",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/sidebar-blog-index.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-includes/formatting.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/twentytwelve/sidebar-blogIndex.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/styles.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/css/wp-transition-additions.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/uploads/css/cdn_css_0d997d01e4ad4d810576c0574c663fa2.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/twentytwelve/functions.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/twentytwelve/tag.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/twentytwelve/style.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/body-header.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/style.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/css/nivo-slider.css",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/content-footer.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/head.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/body-header.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/head.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/footer.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/header.php",
+		"/Users/joelglovier/code/appendto-projects/appendto-com-wordpress/htdocs/wp-content/themes/appendto-2012/incl/content-header.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/plugins/pbd-ajax-load-posts/js/load-posts.js",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/jag2012/header.php",
+		"/Users/joelglovier/code/tuscaroratackle/header.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/jag2012/functions.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/twentyeleven/index.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/jag2012/custom-post-loop.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/plugins/pbd-ajax-load-posts/css/style.css",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/plugins/pbd-ajax-load-posts/pbd-ajax-load-posts.php",
+		"/Users/joelglovier/code/jag/public_html/jag/js/label2value.js",
+		"/Users/joelglovier/code/tuscaroratackle/index.php",
+		"/Users/joelglovier/code/jag/public_html/jag/js/jquery.infieldlabel.js",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/jag2012/page.php",
+		"/Users/joelglovier/code/jag/public_html/jag/wp-content/themes/jag2012/project-template.php",
+		"/Users/joelglovier/Desktop/canary-kp-crash-log.txt",
+		"/Users/joelglovier/Google Drive/code/jag/public_html/joel/wp-config.php",
+		"/Users/joelglovier/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/joelglovier/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/joelglovier/Google Drive/code/httpd.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"appendto-2012/*.css",
+			"appendto-2012/*.php",
+			"themes/appendto-2012/css/*.css",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"150",
+			"73",
+			"70",
+			"320",
+			".social-links li a[href*=\"facebook\"] em",
+			".social-links li a em",
+			"class='has-sidebar'",
+			"#moreinfo section div.onlinetraining div",
+			"display_errors",
+			"display",
+			"ratio",
+			"log_errors_max_len",
+			"error_reporting",
+			"WP_MEMORY_LIMIT",
+			"wp_memory_limit",
+			"revision",
+			"#primary-navigation .active a",
+			"body_class",
+			"page_slug",
+			"<?php if (isset($custom_page_heading)) : ?>\n	        		<?php echo get_post_meta($post->ID, 'custom_page_heading', true); ?>\n        		<?php else : ?>\n        			<?php the_title(); ?>\n        		<?php endif; ?>",
+			"aside nav ul",
+			"post",
+			".pager",
+			".item-list .pager li",
+			".node-unpublished",
+			"contact-form",
+			"appendto.com",
+			"/sites/all/themes/appendto",
+			"<?php bloginfo( 'template_url' )",
+			"<?php echo base_path() . path_to_theme() ?>",
+			"../images",
+			"url",
+			"../images",
+			"url",
+			"div id=\"logo\"",
+			"directory",
+			"?u",
+			"/sites/all/themes/appendto",
+			"section.intro",
+			"-webkit-background-size",
+			"section.intro",
+			"background-size: cover",
+			".hire-me .section-title",
+			"contact",
+			"cover",
+			".intro",
+			".what",
+			".intro",
+			".service",
+			".what",
+			"max-width: 100%",
+			"max-width",
+			".intro .sub",
+			".intro .subhead",
+			".hire-me",
+			"/Google Drive"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"has-sidebar\"",
+			"<?php if ( get_post_meta($post->ID, 'custom_page_heading', true) ) : ?>\n                    <?php echo get_post_meta($post->ID, 'custom_page_heading', true); ?>\n                <?php else : ?>\n                    <?php the_title(); ?>\n                <?php endif; ?>",
+			"<?php bloginfo( 'template_url' ); ?>",
+			"<?php bloginfo( 'template_url' )",
+			"../img",
+			"url",
+			"",
+			"<?php bloginfo( 'template_directory' ); ?>",
+			"auto 100%",
+			"100% auto",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/main.css",
+					"settings":
+					{
+						"buffer_size": 91303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.506157191933,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"layout",
+				"wp-content/themes/appendto-2012/css/layout.css"
+			],
+			[
+				"global",
+				"wp-content/themes/appendto-2012/css/global.css"
+			],
+			[
+				"header-page",
+				"wp-content/themes/appendto-2012/header-page-content.php"
+			],
+			[
+				"functions.php",
+				"wp-content/themes/appendto-2012/functions.php"
+			],
+			[
+				"page-pres",
+				"wp-content/themes/appendto-2012/page-press.php"
+			],
+			[
+				"single",
+				"wp-content/themes/appendto-2012/single.php"
+			],
+			[
+				"footer",
+				"wp-content/themes/appendto-2012/footer.php"
+			],
+			[
+				"sidebar-page",
+				"wp-content/themes/appendto-2012/sidebar-page.php"
+			],
+			[
+				"header-",
+				"wp-content/themes/appendto-2012/header-body.php"
+			],
+			[
+				"header",
+				"wp-content/themes/appendto-2012/header.php"
+			],
+			[
+				"styles",
+				"wp-content/themes/appendto-2012/incl/styles.php"
+			],
+			[
+				"style",
+				"wp-content/themes/jag2012/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true
+}
