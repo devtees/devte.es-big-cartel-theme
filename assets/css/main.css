@@ -95,6 +95,14 @@ Version:               0.1
     width: 100%;
     z-index: 99999;
 }
+.beta-notice.cart { top: 25px; border-top: 1px solid; }
+.beta-notice code {
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: red;
+    font-family: pnbold;
+}
 
 /* @end beta-notice */
 
@@ -105,16 +113,22 @@ body {
     background-image: url(http://assets.devte.es/img/page-bg.jpg);
     background-attachment: fixed;
     background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -ms-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
     padding: 0; margin: 0;
     font-family: 'pnbold', Arial, sans-serif;
     font-size: 16px;
     color: #083b48;
 }
-body.home {
+/*body.home {
     background-attachment: scroll;
     background-position: center -742px;
     background-repeat: no-repeat;
-}
+}*/
 .wrap {
     width: 980px;
     margin: 0 auto;
@@ -139,8 +153,10 @@ a { color: #498997; }
     padding: 12px 0 12px;
     z-index: 999999;
     width: 100%;
+    padding-top: 40px;
 }
 body.cart .shop-header { padding-top: 40px; }
+body.cart .shop-header { padding-top: 68px; }
 
 .shop-header .branding { display: inline-block; }
 .shop-header .site-logo { color: #fff; }
@@ -253,7 +269,10 @@ body.cart .shop-header { padding-top: 40px; }
 }
 
 .main-content { padding-top: 79px; }
-body.cart .main-content { padding-top: 107px; }
+.main-content { padding-top: 107px; } /*comment out when sitewide banner is not present*/
+body.cart .main-content {
+    padding-top: 107px;
+    padding-top: 135px; }
 
 
 /* @end shop general */
@@ -264,50 +283,69 @@ body.cart .main-content { padding-top: 107px; }
 
 .home-products{
     padding: 25px 10px;
-    background-color: rgba(17,78,92,.45);
+    /*background-color: rgba(17,78,92,.45);*/
+    padding-top: 0; /*for promo banner*/
 
 }
 .home-products .product.preview{
 	width:30%;
 	float:left;
 	margin:0 1.6% 20px;
-}
+    background-color: rgba(17,78,92,.15);
+    border-radius:6px; }
+
+.home-products .product.preview:hover {
+    background-color: rgba(17,78,92,.45); }
+
 .product.preview .product-link{
     border-radius:6px;
-	text-decoration:none;
-}
+	text-decoration:none; }
+
 .product.preview:hover .product-link{
-	background-color: rgba(17,78,92,.45);
 	overflow:hidden;
-	display:block;
-}
-.product-link .product-img { margin-top: 10px; }
+	display:block; }
+
+.product-link .product-img {
+    margin-top: 10px;
+    max-width: 100%;
+    display: block; }
 
 .product-link .product-info{
 	background-color: rgba(17,78,92,.65);
-	margin:10px 0 10px;
+	margin:10px 0 0;
 	/*overflow:hidden;*/
     position: relative;
-}
-.product-link .product-info .product-title{
-	margin:5px 0px;
+    color: #fff;
+    border-radius: 0 0 6px 6px; }
+
+.product-link .product-info .product-title {
+	margin:5px 0 0;
+    padding: 5px 10px;
 	font-family:'pnbold';
 	text-transform:none;
-	font-size:18px;
+	font-size:16px;
 	letter-spacing:-1px;
 	line-height:24px;
-	color:#083b48;
-	text-align:center;
-}
+	color:#fff;
+	text-align:right; }
+
 .product-link:hover .product-info .product-title{
 	color: #498997;
 }
+
+.product-link .product-info .product-title .name {
+    float: left;
+    font-family: pnsemibold;
+    font-weight: normal;
+    letter-spacing: 0; }
+
 .product-link .product-info .product-status {
     position: absolute;
     bottom: 64px;
     margin: 0;
     background-color: #ffffcc;
     padding: 0 10px;
+    color: #083b48;
 }
 .product-link .product-info .product-status:before,
 .product-link .product-info .product-status:after {
@@ -1184,6 +1222,6 @@ body.cart .main-content { padding-top: 107px; }
 
 /* @group home promo -------------------- */
 
-.home-promo { margin: 0 -10px; }
+.home-promo { margin: 0 -10px 20px; }
 
 /* @end home promo */
