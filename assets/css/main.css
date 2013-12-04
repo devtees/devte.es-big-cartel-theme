@@ -95,7 +95,7 @@ Version:               0.1
     width: 100%;
     z-index: 99999;
 }
-.beta-notice.cart { top: 25px; border-top: 1px solid; }
+.beta-notice.cart { top: 0; border-top: 1px solid; }
 .beta-notice code {
     background: #fff;
     padding: 3px 6px;
@@ -153,10 +153,10 @@ a { color: #498997; }
     padding: 12px 0 12px;
     z-index: 999999;
     width: 100%;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 }
 body.cart .shop-header { padding-top: 40px; }
-body.cart .shop-header { padding-top: 68px; }
+/*body.cart .shop-header { padding-top: 68px; }*/
 
 .shop-header .branding { display: inline-block; }
 .shop-header .site-logo { color: #fff; }
@@ -221,7 +221,7 @@ body.cart .shop-header { padding-top: 68px; }
 
 .shop .page-name-section{
     background-color: rgba(67,124,133,.55);
-    margin: 0;
+    margin: 0 0 30px; /*change to "0" when banner is present*/
 }
 .shop .page-name{
     padding: 5px 10px;
@@ -269,10 +269,10 @@ body.cart .shop-header { padding-top: 68px; }
 }
 
 .main-content { padding-top: 79px; }
-.main-content { padding-top: 107px; } /*comment out when sitewide banner is not present*/
+/*.main-content { padding-top: 107px; } comment out when sitewide banner is not present*/
 body.cart .main-content {
     padding-top: 107px;
-    padding-top: 135px; }
+    /*padding-top: 135px;*/ }
 
 
 /* @end shop general */
