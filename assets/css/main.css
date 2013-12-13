@@ -308,7 +308,8 @@ body.cart .main-content {
 .product-link .product-img {
     margin-top: 10px;
     max-width: 100%;
-    display: block; }
+    display: block;
+    margin: 0 auto; }
 
 .product-link .product-info{
 	background-color: rgba(17,78,92,.65);
@@ -592,6 +593,13 @@ body.cart .main-content {
 }
 .product-thumbnails .featured{
 	margin-bottom:20px;
+}
+.product-thumbnails .featured a {
+    max-width: 100%;
+    display: block;
+}
+.product-thumbnails .featured a img {
+    max-width: 100%;
 }
 .product-thumbnails .thumbnail{
 	float:left;
