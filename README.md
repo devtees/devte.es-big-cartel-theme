@@ -1,7 +1,7 @@
 devte.es Big Cartel theme
 ========
 
-This repo contains the code and assets for the old Dev Tees site, which was taken offline in Febrrary, 2014 in preparation for converting the shop to Shopify. The site used to live at http://devte.es, but now lives at http://devtees.com.
+This repo contains the code and assets for the old Dev Tees site, which was taken offline in February, 2014 in preparation for converting the shop to Shopify. The site used to live at http://devte.es, but now lives at http://devtees.com.
 
 ## License
 
