@@ -5,7 +5,7 @@ This repo contains the code and assets for the old Dev Tees site, which was take
 
 ## License
 
-See the associated [license.txt](license.txt) file for licensing, but the tl;dr is this repo is licensed under the MIT License for applicable portions. Certain portions are unlicensed and not for reuse, including the following files or directories:
+See the associated [license.txt](license.txt) file for licensing, but the tl;dr is this repo is licensed under the MIT License for applicable portions. Certain portions are unlicensed and **NOT for reuse**, including the following files or directories:
 - /assets/img
 - /assets/fonts
 - /assets/site-logo.svg
