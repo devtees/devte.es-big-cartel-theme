@@ -153,10 +153,8 @@ a { color: #498997; }
     padding: 12px 0 12px;
     z-index: 999999;
     width: 100%;
-    /*padding-top: 40px;*/
 }
 body.cart .shop-header { padding-top: 40px; }
-/*body.cart .shop-header { padding-top: 68px; }*/
 
 .shop-header .branding { display: inline-block; }
 .shop-header .site-logo { color: #fff; }
@@ -221,7 +219,7 @@ body.cart .shop-header { padding-top: 40px; }
 
 .shop .page-name-section{
     background-color: rgba(67,124,133,.55);
-    margin: 0 0 30px; /*change to "0" when banner is present*/
+    margin: 0 0 30px;
 }
 .shop .page-name{
     padding: 5px 10px;
@@ -269,11 +267,7 @@ body.cart .shop-header { padding-top: 40px; }
 }
 
 .main-content { padding-top: 79px; }
-/*.main-content { padding-top: 107px; } comment out when sitewide banner is not present*/
-body.cart .main-content {
-    padding-top: 107px;
-    /*padding-top: 135px;*/ }
-
+body.cart .main-content { padding-top: 107px; }
 
 /* @end shop general */
 
@@ -1230,6 +1224,16 @@ body.cart .main-content {
 
 /* @group home promo -------------------- */
 
-.home-promo { margin: 0 -10px 20px; }
+.home-promo { margin: -30px -10px 20px; }
 
 /* @end home promo */
+
+/* @group promo styles -------------------- */
+
+/*.main-content { padding-top: 107px; }
+body.cart .main-content { padding-top: 135px; }
+.shop-header { padding-top: 40px; }
+body.cart .shop-header { padding-top: 68px; }
+.beta-notice.cart { top: 25px; }*/
+
+/* @end promo styles */
